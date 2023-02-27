@@ -1,5 +1,14 @@
 package com.driver;
 
-public class Main {
-  
+public class Main 
+{
+  public static void main(String[] args)
+  {
+    RWOnly obj = new RWOnly();
+    obj.name = "Vaibhav";
+    System.out.println(obj.name);
+    
+    obj.setName("Vaibhav");
+    System.out.println(obj.getName);
+  }
 }
